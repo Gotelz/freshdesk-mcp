@@ -8,10 +8,10 @@ MCP (Model Context Protocol) server for the Freshdesk API. Designed for use with
 
 ```bash
 # From GitHub (via npx)
-npx github:YOUR_USERNAME/freshdesk-mcp
+npx github:Gotelz/freshdesk-mcp
 
 # Or clone and build
-git clone https://github.com/YOUR_USERNAME/freshdesk-mcp.git
+git clone https://github.com/Gotelz/freshdesk-mcp.git
 cd freshdesk-mcp
 npm install && npm run build
 ```
@@ -44,7 +44,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
   "mcpServers": {
     "freshdesk": {
       "command": "npx",
-      "args": ["github:YOUR_USERNAME/freshdesk-mcp"],
+      "args": ["github:Gotelz/freshdesk-mcp"],
       "env": {
         "FRESHDESK_API_KEY": "your-api-key",
         "FRESHDESK_DOMAIN": "yourcompany"
@@ -57,7 +57,7 @@ Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 ## Usage with Claude Code
 
 ```bash
-claude mcp add freshdesk -- npx github:YOUR_USERNAME/freshdesk-mcp
+claude mcp add freshdesk -- npx github:Gotelz/freshdesk-mcp
 ```
 
 Set environment variables in your shell profile or `.env`.
